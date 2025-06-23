@@ -1,0 +1,399 @@
+No.     Time               Source                Destination           Protocol Length Info
+      1 16:31:52.722410844 VMware_33:00:2a       TendaTechnol_be:94:40 ARP      42     Who has 192.168.0.1? Tell 192.168.0.171
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface eth0, id 0
+Ethernet II, Src: VMware_33:00:2a (00:50:56:33:00:2a), Dst: TendaTechnol_be:94:40 (04:95:e6:be:94:40)
+Address Resolution Protocol (request)
+
+No.     Time               Source                Destination           Protocol Length Info
+      2 16:31:52.765540951 TendaTechnol_be:94:40 VMware_33:00:2a       ARP      60     192.168.0.1 is at 04:95:e6:be:94:40
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: VMware_33:00:2a (00:50:56:33:00:2a)
+Address Resolution Protocol (reply)
+
+No.     Time               Source                Destination           Protocol Length Info
+      3 16:31:54.268685275 192.168.0.108         255.255.255.255       UDP      769    53806 → 29810 Len=727
+
+Frame 3: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface eth0, id 0
+Ethernet II, Src: TPLink_dc:a4:20 (34:60:f9:dc:a4:20), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.0.108, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 53806, Dst Port: 29810
+Data (727 bytes)
+
+0000  00 00 02 d3 7b 22 68 65 61 64 65 72 22 3a 7b 22   ....{"header":{"
+0010  76 65 72 73 69 6f 6e 22 3a 22 31 2e 33 2e 30 22   version":"1.3.0"
+0020  2c 22 6d 61 63 22 3a 22 33 34 3a 36 30 3a 46 39   ,"mac":"34:60:F9
+0030  3a 44 43 3a 41 34 3a 32 30 22 2c 22 74 79 70 65   :DC:A4:20","type
+0040  22 3a 31 2c 22 64 65 76 69 63 65 22 3a 22 61 70   ":1,"device":"ap
+0050  22 2c 22 65 72 72 6f 72 22 3a 30 2c 22 64 65 73   ","error":0,"des
+0060  74 22 3a 22 63 32 31 66 39 36 39 62 35 66 30 33   t":"c21f969b5f03
+0070  64 33 33 64 34 33 65 30 34 66 38 66 31 33 36 65   d33d43e04f8f136e
+0080  37 36 38 32 22 2c 22 76 65 72 43 61 70 22 3a 33   7682","verCap":3
+0090  7d 2c 22 62 6f 64 79 22 3a 7b 22 64 65 76 69 63   },"body":{"devic
+00a0  65 49 6e 66 6f 22 3a 7b 22 6d 6f 64 65 6c 22 3a   eInfo":{"model":
+00b0  22 45 41 50 31 31 30 22 2c 22 6e 61 6d 65 22 3a   "EAP110","name":
+00c0  22 45 41 50 31 31 30 2d 33 34 2d 36 30 2d 46 39   "EAP110-34-60-F9
+00d0  2d 44 43 2d 41 34 2d 32 30 22 2c 22 66 69 72 6d   -DC-A4-20","firm
+00e0  77 61 72 65 56 65 72 73 69 6f 6e 22 3a 22 35 2e   wareVersion":"5.
+00f0  30 2e 34 20 42 75 69 6c 64 20 32 30 32 32 30 32   0.4 Build 202202
+0100  31 36 20 52 65 6c 2e 20 35 37 34 39 35 22 2c 22   16 Rel. 57495","
+0110  6d 6f 64 65 6c 56 65 72 73 69 6f 6e 22 3a 22 34   modelVersion":"4
+0120  2e 30 22 2c 22 68 61 72 64 77 61 72 65 56 65 72   .0","hardwareVer
+0130  73 69 6f 6e 22 3a 22 34 2e 30 22 2c 22 75 70 54   sion":"4.0","upT
+0140  69 6d 65 22 3a 22 31 20 64 61 79 73 20 31 32 3a   ime":"1 days 12:
+0150  30 31 3a 31 35 22 2c 22 63 70 75 55 74 69 22 3a   01:15","cpuUti":
+0160  31 2c 22 6d 65 6d 55 74 69 22 3a 36 32 2c 22 74   1,"memUti":62,"t
+0170  78 52 61 74 65 22 3a 34 38 33 35 35 33 2c 22 72   xRate":483553,"r
+0180  78 52 61 74 65 22 3a 34 32 36 33 33 34 2c 22 69   xRate":426334,"i
+0190  73 46 61 63 74 6f 72 79 22 3a 66 61 6c 73 65 2c   sFactory":false,
+01a0  22 69 70 22 3a 22 31 39 32 2e 31 36 38 2e 30 2e   "ip":"192.168.0.
+01b0  31 30 38 22 2c 22 6d 61 73 6b 22 3a 22 32 35 35   108","mask":"255
+01c0  2e 32 35 35 2e 32 35 35 2e 30 22 7d 2c 22 64 65   .255.255.0"},"de
+01d0  76 69 63 65 4d 69 73 63 22 3a 7b 22 73 75 70 70   viceMisc":{"supp
+01e0  6f 72 74 5f 35 67 22 3a 66 61 6c 73 65 2c 22 73   ort_5g":false,"s
+01f0  75 70 70 6f 72 74 5f 31 31 61 63 22 3a 66 61 6c   upport_11ac":fal
+0200  73 65 2c 22 73 75 70 70 6f 72 74 5f 6c 61 67 22   se,"support_lag"
+0210  3a 66 61 6c 73 65 2c 22 63 75 73 74 6f 6d 69 7a   :false,"customiz
+0220  65 52 65 67 69 6f 6e 22 3a 38 34 31 2c 22 6d 61   eRegion":841,"ma
+0230  78 54 78 50 6f 77 65 72 22 3a 30 2c 22 6d 69 6e   xTxPower":0,"min
+0240  50 6f 77 65 72 32 47 22 3a 34 2c 22 6d 61 78 50   Power2G":4,"maxP
+0250  6f 77 65 72 32 47 22 3a 32 31 7d 2c 22 63 6f 6e   ower2G":21},"con
+0260  74 72 6f 6c 6c 65 72 53 65 74 74 69 6e 67 22 3a   trollerSetting":
+0270  7b 22 63 6f 6e 74 72 6f 6c 6c 65 72 49 64 22 3a   {"controllerId":
+0280  22 63 32 31 66 39 36 39 62 35 66 30 33 64 33 33   "c21f969b5f03d33
+0290  64 34 33 65 30 34 66 38 66 31 33 36 65 37 36 38   d43e04f8f136e768
+02a0  32 22 2c 22 64 65 73 74 4f 6d 61 64 61 63 49 64   2","destOmadacId
+02b0  22 3a 22 63 32 31 66 39 36 39 62 35 66 30 33 64   ":"c21f969b5f03d
+02c0  33 33 64 34 33 65 30 34 66 38 66 31 33 36 65 37   33d43e04f8f136e7
+02d0  36 38 32 22 7d 7d 7d                              682"}}}
+
+No.     Time               Source                Destination           Protocol Length Info
+      4 16:32:08.135520251 192.168.0.146         239.255.255.250       SSDP     212    M-SEARCH * HTTP/1.1 
+
+Frame 4: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits) on interface eth0, id 0
+Ethernet II, Src: AzureWaveTec_77:cd:ed (94:bb:43:77:cd:ed), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.146, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 60053, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+      5 16:32:09.136080048 192.168.0.146         239.255.255.250       SSDP     212    M-SEARCH * HTTP/1.1 
+
+Frame 5: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits) on interface eth0, id 0
+Ethernet II, Src: AzureWaveTec_77:cd:ed (94:bb:43:77:cd:ed), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.146, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 60053, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+      6 16:32:09.156221093 192.168.0.1           239.255.255.250       SSDP     278    NOTIFY * HTTP/1.1 
+
+Frame 6: 278 bytes on wire (2224 bits), 278 bytes captured (2224 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+      7 16:32:09.171218481 192.168.0.1           239.255.255.250       SSDP     350    NOTIFY * HTTP/1.1 
+
+Frame 7: 350 bytes on wire (2800 bits), 350 bytes captured (2800 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+      8 16:32:09.174936187 192.168.0.1           239.255.255.250       SSDP     350    NOTIFY * HTTP/1.1 
+
+Frame 8: 350 bytes on wire (2800 bits), 350 bytes captured (2800 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+      9 16:32:09.177561350 192.168.0.1           239.255.255.250       SSDP     346    NOTIFY * HTTP/1.1 
+
+Frame 9: 346 bytes on wire (2768 bits), 346 bytes captured (2768 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     10 16:32:09.183577201 192.168.0.1           239.255.255.250       SSDP     346    NOTIFY * HTTP/1.1 
+
+Frame 10: 346 bytes on wire (2768 bits), 346 bytes captured (2768 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     11 16:32:09.194959679 192.168.0.1           239.255.255.250       SSDP     326    NOTIFY * HTTP/1.1 
+
+Frame 11: 326 bytes on wire (2608 bits), 326 bytes captured (2608 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     12 16:32:09.194959960 192.168.0.1           239.255.255.250       SSDP     358    NOTIFY * HTTP/1.1 
+
+Frame 12: 358 bytes on wire (2864 bits), 358 bytes captured (2864 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     13 16:32:09.225379304 192.168.0.1           239.255.255.250       SSDP     340    NOTIFY * HTTP/1.1 
+
+Frame 13: 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     14 16:32:09.225379965 192.168.0.1           239.255.255.250       SSDP     342    NOTIFY * HTTP/1.1 
+
+Frame 14: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     15 16:32:09.230931554 192.168.0.1           239.255.255.250       SSDP     342    NOTIFY * HTTP/1.1 
+
+Frame 15: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     16 16:32:10.138166777 192.168.0.146         239.255.255.250       SSDP     212    M-SEARCH * HTTP/1.1 
+
+Frame 16: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits) on interface eth0, id 0
+Ethernet II, Src: AzureWaveTec_77:cd:ed (94:bb:43:77:cd:ed), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.146, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 60053, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     17 16:32:11.143962394 192.168.0.146         239.255.255.250       SSDP     212    M-SEARCH * HTTP/1.1 
+
+Frame 17: 212 bytes on wire (1696 bits), 212 bytes captured (1696 bits) on interface eth0, id 0
+Ethernet II, Src: AzureWaveTec_77:cd:ed (94:bb:43:77:cd:ed), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.146, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 60053, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     18 16:32:14.253921396 192.168.0.108         255.255.255.255       UDP      768    53806 → 29810 Len=726
+
+Frame 18: 768 bytes on wire (6144 bits), 768 bytes captured (6144 bits) on interface eth0, id 0
+Ethernet II, Src: TPLink_dc:a4:20 (34:60:f9:dc:a4:20), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.0.108, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 53806, Dst Port: 29810
+Data (726 bytes)
+
+0000  00 00 02 d2 7b 22 68 65 61 64 65 72 22 3a 7b 22   ....{"header":{"
+0010  76 65 72 73 69 6f 6e 22 3a 22 31 2e 33 2e 30 22   version":"1.3.0"
+0020  2c 22 6d 61 63 22 3a 22 33 34 3a 36 30 3a 46 39   ,"mac":"34:60:F9
+0030  3a 44 43 3a 41 34 3a 32 30 22 2c 22 74 79 70 65   :DC:A4:20","type
+0040  22 3a 31 2c 22 64 65 76 69 63 65 22 3a 22 61 70   ":1,"device":"ap
+0050  22 2c 22 65 72 72 6f 72 22 3a 30 2c 22 64 65 73   ","error":0,"des
+0060  74 22 3a 22 63 32 31 66 39 36 39 62 35 66 30 33   t":"c21f969b5f03
+0070  64 33 33 64 34 33 65 30 34 66 38 66 31 33 36 65   d33d43e04f8f136e
+0080  37 36 38 32 22 2c 22 76 65 72 43 61 70 22 3a 33   7682","verCap":3
+0090  7d 2c 22 62 6f 64 79 22 3a 7b 22 64 65 76 69 63   },"body":{"devic
+00a0  65 49 6e 66 6f 22 3a 7b 22 6d 6f 64 65 6c 22 3a   eInfo":{"model":
+00b0  22 45 41 50 31 31 30 22 2c 22 6e 61 6d 65 22 3a   "EAP110","name":
+00c0  22 45 41 50 31 31 30 2d 33 34 2d 36 30 2d 46 39   "EAP110-34-60-F9
+00d0  2d 44 43 2d 41 34 2d 32 30 22 2c 22 66 69 72 6d   -DC-A4-20","firm
+00e0  77 61 72 65 56 65 72 73 69 6f 6e 22 3a 22 35 2e   wareVersion":"5.
+00f0  30 2e 34 20 42 75 69 6c 64 20 32 30 32 32 30 32   0.4 Build 202202
+0100  31 36 20 52 65 6c 2e 20 35 37 34 39 35 22 2c 22   16 Rel. 57495","
+0110  6d 6f 64 65 6c 56 65 72 73 69 6f 6e 22 3a 22 34   modelVersion":"4
+0120  2e 30 22 2c 22 68 61 72 64 77 61 72 65 56 65 72   .0","hardwareVer
+0130  73 69 6f 6e 22 3a 22 34 2e 30 22 2c 22 75 70 54   sion":"4.0","upT
+0140  69 6d 65 22 3a 22 31 20 64 61 79 73 20 31 32 3a   ime":"1 days 12:
+0150  30 31 3a 33 35 22 2c 22 63 70 75 55 74 69 22 3a   01:35","cpuUti":
+0160  30 2c 22 6d 65 6d 55 74 69 22 3a 36 32 2c 22 74   0,"memUti":62,"t
+0170  78 52 61 74 65 22 3a 34 31 36 32 35 32 2c 22 72   xRate":416252,"r
+0180  78 52 61 74 65 22 3a 33 34 39 30 35 2c 22 69 73   xRate":34905,"is
+0190  46 61 63 74 6f 72 79 22 3a 66 61 6c 73 65 2c 22   Factory":false,"
+01a0  69 70 22 3a 22 31 39 32 2e 31 36 38 2e 30 2e 31   ip":"192.168.0.1
+01b0  30 38 22 2c 22 6d 61 73 6b 22 3a 22 32 35 35 2e   08","mask":"255.
+01c0  32 35 35 2e 32 35 35 2e 30 22 7d 2c 22 64 65 76   255.255.0"},"dev
+01d0  69 63 65 4d 69 73 63 22 3a 7b 22 73 75 70 70 6f   iceMisc":{"suppo
+01e0  72 74 5f 35 67 22 3a 66 61 6c 73 65 2c 22 73 75   rt_5g":false,"su
+01f0  70 70 6f 72 74 5f 31 31 61 63 22 3a 66 61 6c 73   pport_11ac":fals
+0200  65 2c 22 73 75 70 70 6f 72 74 5f 6c 61 67 22 3a   e,"support_lag":
+0210  66 61 6c 73 65 2c 22 63 75 73 74 6f 6d 69 7a 65   false,"customize
+0220  52 65 67 69 6f 6e 22 3a 38 34 31 2c 22 6d 61 78   Region":841,"max
+0230  54 78 50 6f 77 65 72 22 3a 30 2c 22 6d 69 6e 50   TxPower":0,"minP
+0240  6f 77 65 72 32 47 22 3a 34 2c 22 6d 61 78 50 6f   ower2G":4,"maxPo
+0250  77 65 72 32 47 22 3a 32 31 7d 2c 22 63 6f 6e 74   wer2G":21},"cont
+0260  72 6f 6c 6c 65 72 53 65 74 74 69 6e 67 22 3a 7b   rollerSetting":{
+0270  22 63 6f 6e 74 72 6f 6c 6c 65 72 49 64 22 3a 22   "controllerId":"
+0280  63 32 31 66 39 36 39 62 35 66 30 33 64 33 33 64   c21f969b5f03d33d
+0290  34 33 65 30 34 66 38 66 31 33 36 65 37 36 38 32   43e04f8f136e7682
+02a0  22 2c 22 64 65 73 74 4f 6d 61 64 61 63 49 64 22   ","destOmadacId"
+02b0  3a 22 63 32 31 66 39 36 39 62 35 66 30 33 64 33   :"c21f969b5f03d3
+02c0  33 64 34 33 65 30 34 66 38 66 31 33 36 65 37 36   3d43e04f8f136e76
+02d0  38 32 22 7d 7d 7d                                 82"}}}
+
+No.     Time               Source                Destination           Protocol Length Info
+     19 16:32:34.206167767 192.168.0.108         255.255.255.255       UDP      768    53806 → 29810 Len=726
+
+Frame 19: 768 bytes on wire (6144 bits), 768 bytes captured (6144 bits) on interface eth0, id 0
+Ethernet II, Src: TPLink_dc:a4:20 (34:60:f9:dc:a4:20), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.0.108, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 53806, Dst Port: 29810
+Data (726 bytes)
+
+0000  00 00 02 d2 7b 22 68 65 61 64 65 72 22 3a 7b 22   ....{"header":{"
+0010  76 65 72 73 69 6f 6e 22 3a 22 31 2e 33 2e 30 22   version":"1.3.0"
+0020  2c 22 6d 61 63 22 3a 22 33 34 3a 36 30 3a 46 39   ,"mac":"34:60:F9
+0030  3a 44 43 3a 41 34 3a 32 30 22 2c 22 74 79 70 65   :DC:A4:20","type
+0040  22 3a 31 2c 22 64 65 76 69 63 65 22 3a 22 61 70   ":1,"device":"ap
+0050  22 2c 22 65 72 72 6f 72 22 3a 30 2c 22 64 65 73   ","error":0,"des
+0060  74 22 3a 22 63 32 31 66 39 36 39 62 35 66 30 33   t":"c21f969b5f03
+0070  64 33 33 64 34 33 65 30 34 66 38 66 31 33 36 65   d33d43e04f8f136e
+0080  37 36 38 32 22 2c 22 76 65 72 43 61 70 22 3a 33   7682","verCap":3
+0090  7d 2c 22 62 6f 64 79 22 3a 7b 22 64 65 76 69 63   },"body":{"devic
+00a0  65 49 6e 66 6f 22 3a 7b 22 6d 6f 64 65 6c 22 3a   eInfo":{"model":
+00b0  22 45 41 50 31 31 30 22 2c 22 6e 61 6d 65 22 3a   "EAP110","name":
+00c0  22 45 41 50 31 31 30 2d 33 34 2d 36 30 2d 46 39   "EAP110-34-60-F9
+00d0  2d 44 43 2d 41 34 2d 32 30 22 2c 22 66 69 72 6d   -DC-A4-20","firm
+00e0  77 61 72 65 56 65 72 73 69 6f 6e 22 3a 22 35 2e   wareVersion":"5.
+00f0  30 2e 34 20 42 75 69 6c 64 20 32 30 32 32 30 32   0.4 Build 202202
+0100  31 36 20 52 65 6c 2e 20 35 37 34 39 35 22 2c 22   16 Rel. 57495","
+0110  6d 6f 64 65 6c 56 65 72 73 69 6f 6e 22 3a 22 34   modelVersion":"4
+0120  2e 30 22 2c 22 68 61 72 64 77 61 72 65 56 65 72   .0","hardwareVer
+0130  73 69 6f 6e 22 3a 22 34 2e 30 22 2c 22 75 70 54   sion":"4.0","upT
+0140  69 6d 65 22 3a 22 31 20 64 61 79 73 20 31 32 3a   ime":"1 days 12:
+0150  30 31 3a 35 35 22 2c 22 63 70 75 55 74 69 22 3a   01:55","cpuUti":
+0160  31 2c 22 6d 65 6d 55 74 69 22 3a 36 32 2c 22 74   1,"memUti":62,"t
+0170  78 52 61 74 65 22 3a 31 37 38 38 38 35 2c 22 72   xRate":178885,"r
+0180  78 52 61 74 65 22 3a 31 33 35 33 38 2c 22 69 73   xRate":13538,"is
+0190  46 61 63 74 6f 72 79 22 3a 66 61 6c 73 65 2c 22   Factory":false,"
+01a0  69 70 22 3a 22 31 39 32 2e 31 36 38 2e 30 2e 31   ip":"192.168.0.1
+01b0  30 38 22 2c 22 6d 61 73 6b 22 3a 22 32 35 35 2e   08","mask":"255.
+01c0  32 35 35 2e 32 35 35 2e 30 22 7d 2c 22 64 65 76   255.255.0"},"dev
+01d0  69 63 65 4d 69 73 63 22 3a 7b 22 73 75 70 70 6f   iceMisc":{"suppo
+01e0  72 74 5f 35 67 22 3a 66 61 6c 73 65 2c 22 73 75   rt_5g":false,"su
+01f0  70 70 6f 72 74 5f 31 31 61 63 22 3a 66 61 6c 73   pport_11ac":fals
+0200  65 2c 22 73 75 70 70 6f 72 74 5f 6c 61 67 22 3a   e,"support_lag":
+0210  66 61 6c 73 65 2c 22 63 75 73 74 6f 6d 69 7a 65   false,"customize
+0220  52 65 67 69 6f 6e 22 3a 38 34 31 2c 22 6d 61 78   Region":841,"max
+0230  54 78 50 6f 77 65 72 22 3a 30 2c 22 6d 69 6e 50   TxPower":0,"minP
+0240  6f 77 65 72 32 47 22 3a 34 2c 22 6d 61 78 50 6f   ower2G":4,"maxPo
+0250  77 65 72 32 47 22 3a 32 31 7d 2c 22 63 6f 6e 74   wer2G":21},"cont
+0260  72 6f 6c 6c 65 72 53 65 74 74 69 6e 67 22 3a 7b   rollerSetting":{
+0270  22 63 6f 6e 74 72 6f 6c 6c 65 72 49 64 22 3a 22   "controllerId":"
+0280  63 32 31 66 39 36 39 62 35 66 30 33 64 33 33 64   c21f969b5f03d33d
+0290  34 33 65 30 34 66 38 66 31 33 36 65 37 36 38 32   43e04f8f136e7682
+02a0  22 2c 22 64 65 73 74 4f 6d 61 64 61 63 49 64 22   ","destOmadacId"
+02b0  3a 22 63 32 31 66 39 36 39 62 35 66 30 33 64 33   :"c21f969b5f03d3
+02c0  33 64 34 33 65 30 34 66 38 66 31 33 36 65 37 36   3d43e04f8f136e76
+02d0  38 32 22 7d 7d 7d                                 82"}}}
+
+No.     Time               Source                Destination           Protocol Length Info
+     20 16:32:36.664270241 192.168.0.144         239.255.255.250       SSDP     167    M-SEARCH * HTTP/1.1 
+
+Frame 20: 167 bytes on wire (1336 bits), 167 bytes captured (1336 bits) on interface eth0, id 0
+Ethernet II, Src: 2e:83:b7:4b:b4:45 (2e:83:b7:4b:b4:45), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.144, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 44735, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     21 16:32:39.219054462 192.168.0.1           239.255.255.250       SSDP     358    NOTIFY * HTTP/1.1 
+
+Frame 21: 358 bytes on wire (2864 bits), 358 bytes captured (2864 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     22 16:32:39.219054942 192.168.0.1           239.255.255.250       SSDP     358    NOTIFY * HTTP/1.1 
+
+Frame 22: 358 bytes on wire (2864 bits), 358 bytes captured (2864 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     23 16:32:39.219055013 192.168.0.1           239.255.255.250       SSDP     340    NOTIFY * HTTP/1.1 
+
+Frame 23: 340 bytes on wire (2720 bits), 340 bytes captured (2720 bits) on interface eth0, id 0
+Ethernet II, Src: TendaTechnol_be:94:40 (04:95:e6:be:94:40), Dst: IPv4mcast_7f:ff:fa (01:00:5e:7f:ff:fa)
+Internet Protocol Version 4, Src: 192.168.0.1, Dst: 239.255.255.250
+User Datagram Protocol, Src Port: 53617, Dst Port: 1900
+Simple Service Discovery Protocol
+
+No.     Time               Source                Destination           Protocol Length Info
+     24 16:32:44.356654615 192.168.0.108         255.255.255.255       UDP      768    53806 → 29810 Len=726
+
+Frame 24: 768 bytes on wire (6144 bits), 768 bytes captured (6144 bits) on interface eth0, id 0
+Ethernet II, Src: TPLink_dc:a4:20 (34:60:f9:dc:a4:20), Dst: Broadcast (ff:ff:ff:ff:ff:ff)
+Internet Protocol Version 4, Src: 192.168.0.108, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 53806, Dst Port: 29810
+Data (726 bytes)
+
+0000  00 00 02 d2 7b 22 68 65 61 64 65 72 22 3a 7b 22   ....{"header":{"
+0010  76 65 72 73 69 6f 6e 22 3a 22 31 2e 33 2e 30 22   version":"1.3.0"
+0020  2c 22 6d 61 63 22 3a 22 33 34 3a 36 30 3a 46 39   ,"mac":"34:60:F9
+0030  3a 44 43 3a 41 34 3a 32 30 22 2c 22 74 79 70 65   :DC:A4:20","type
+0040  22 3a 31 2c 22 64 65 76 69 63 65 22 3a 22 61 70   ":1,"device":"ap
+0050  22 2c 22 65 72 72 6f 72 22 3a 30 2c 22 64 65 73   ","error":0,"des
+0060  74 22 3a 22 63 32 31 66 39 36 39 62 35 66 30 33   t":"c21f969b5f03
+0070  64 33 33 64 34 33 65 30 34 66 38 66 31 33 36 65   d33d43e04f8f136e
+0080  37 36 38 32 22 2c 22 76 65 72 43 61 70 22 3a 33   7682","verCap":3
+0090  7d 2c 22 62 6f 64 79 22 3a 7b 22 64 65 76 69 63   },"body":{"devic
+00a0  65 49 6e 66 6f 22 3a 7b 22 6d 6f 64 65 6c 22 3a   eInfo":{"model":
+00b0  22 45 41 50 31 31 30 22 2c 22 6e 61 6d 65 22 3a   "EAP110","name":
+00c0  22 45 41 50 31 31 30 2d 33 34 2d 36 30 2d 46 39   "EAP110-34-60-F9
+00d0  2d 44 43 2d 41 34 2d 32 30 22 2c 22 66 69 72 6d   -DC-A4-20","firm
+00e0  77 61 72 65 56 65 72 73 69 6f 6e 22 3a 22 35 2e   wareVersion":"5.
+00f0  30 2e 34 20 42 75 69 6c 64 20 32 30 32 32 30 32   0.4 Build 202202
+0100  31 36 20 52 65 6c 2e 20 35 37 34 39 35 22 2c 22   16 Rel. 57495","
+0110  6d 6f 64 65 6c 56 65 72 73 69 6f 6e 22 3a 22 34   modelVersion":"4
+0120  2e 30 22 2c 22 68 61 72 64 77 61 72 65 56 65 72   .0","hardwareVer
+0130  73 69 6f 6e 22 3a 22 34 2e 30 22 2c 22 75 70 54   sion":"4.0","upT
+0140  69 6d 65 22 3a 22 31 20 64 61 79 73 20 31 32 3a   ime":"1 days 12:
+0150  30 32 3a 30 35 22 2c 22 63 70 75 55 74 69 22 3a   02:05","cpuUti":
+0160  30 2c 22 6d 65 6d 55 74 69 22 3a 36 32 2c 22 74   0,"memUti":62,"t
+0170  78 52 61 74 65 22 3a 32 33 36 38 36 33 2c 22 72   xRate":236863,"r
+0180  78 52 61 74 65 22 3a 35 33 37 38 35 2c 22 69 73   xRate":53785,"is
+0190  46 61 63 74 6f 72 79 22 3a 66 61 6c 73 65 2c 22   Factory":false,"
+01a0  69 70 22 3a 22 31 39 32 2e 31 36 38 2e 30 2e 31   ip":"192.168.0.1
+01b0  30 38 22 2c 22 6d 61 73 6b 22 3a 22 32 35 35 2e   08","mask":"255.
+01c0  32 35 35 2e 32 35 35 2e 30 22 7d 2c 22 64 65 76   255.255.0"},"dev
+01d0  69 63 65 4d 69 73 63 22 3a 7b 22 73 75 70 70 6f   iceMisc":{"suppo
+01e0  72 74 5f 35 67 22 3a 66 61 6c 73 65 2c 22 73 75   rt_5g":false,"su
+01f0  70 70 6f 72 74 5f 31 31 61 63 22 3a 66 61 6c 73   pport_11ac":fals
+0200  65 2c 22 73 75 70 70 6f 72 74 5f 6c 61 67 22 3a   e,"support_lag":
+0210  66 61 6c 73 65 2c 22 63 75 73 74 6f 6d 69 7a 65   false,"customize
+0220  52 65 67 69 6f 6e 22 3a 38 34 31 2c 22 6d 61 78   Region":841,"max
+0230  54 78 50 6f 77 65 72 22 3a 30 2c 22 6d 69 6e 50   TxPower":0,"minP
+0240  6f 77 65 72 32 47 22 3a 34 2c 22 6d 61 78 50 6f   ower2G":4,"maxPo
+0250  77 65 72 32 47 22 3a 32 31 7d 2c 22 63 6f 6e 74   wer2G":21},"cont
+0260  72 6f 6c 6c 65 72 53 65 74 74 69 6e 67 22 3a 7b   rollerSetting":{
+0270  22 63 6f 6e 74 72 6f 6c 6c 65 72 49 64 22 3a 22   "controllerId":"
+0280  63 32 31 66 39 36 39 62 35 66 30 33 64 33 33 64   c21f969b5f03d33d
+0290  34 33 65 30 34 66 38 66 31 33 36 65 37 36 38 32   43e04f8f136e7682
+02a0  22 2c 22 64 65 73 74 4f 6d 61 64 61 63 49 64 22   ","destOmadacId"
+02b0  3a 22 63 32 31 66 39 36 39 62 35 66 30 33 64 33   :"c21f969b5f03d3
+02c0  33 64 34 33 65 30 34 66 38 66 31 33 36 65 37 36   3d43e04f8f136e76
+02d0  38 32 22 7d 7d 7d                                 82"}}}
